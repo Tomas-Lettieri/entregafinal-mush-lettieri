@@ -1,0 +1,118 @@
+
+body{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    }
+.titulo{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 15%, #FFCC70 100%)
+    }  
+.inicio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "img1 img2";
+    } 
+ .uno{
+    grid-area: img1;
+    margin-left: 30%;
+ }
+ .dos{
+    grid-area: img2;
+ }
+ .inicio{
+     
+ }
+ .carrousel{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    }   
+.carousel-inner img{
+    width: 100vw;
+    height: 500px;
+    
+}
+.shop{
+   font-size: 80px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+   color: blueviolet;
+   margin-top: 10px;
+   background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 15%, #FFCC70 100%)
+
+}
+.btn-group{
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   background-color: #E0C3FC;
+
+}
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis";
+    background-image: 
+
+}
+.card1{
+    grid-area: uno;
+}
+.card2{
+    grid-area: dos;
+}
+.card3{
+    grid-area: tres;
+}
+.card4{
+    grid-area: cuatro;
+}
+.card5{
+    grid-area: cinco;
+}
+.card6{
+    grid-area: seis;
+}.navbar navbar-expand-lg navbar-light bg-light{
+    background-color: #4158D0;
+}
+.gal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+    grid-template-areas: 
+    "gal1 gal2 gal3"
+    "gal4 gal5 gal6";
+}
+.gal1{
+    grid-area: gal1;
+}
+.gal2{
+    grid-area: gal2;
+}
+.gal3{
+    grid-area: gal3;
+}
+.gal4{
+    grid-area: gal4;
+}
+.gal5{
+    grid-area: gal5;
+}
+.gal6{
+    grid-area: gal6;
+}
+.galtitulo{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blueviolet;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 15%, #FFCC70 100%)
+}
